@@ -3,7 +3,7 @@ from sklearn.model_selection import train_test_split
 
 
 # Load dataset
-df = pd.read_csv("../data/aiml_healthcare_symptoms.csv")
+df = pd.read_csv("data/aiml_healthcare_symptoms.csv")
 
 
 # Remove patient ID
