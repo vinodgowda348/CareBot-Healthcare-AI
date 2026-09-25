@@ -1,0 +1,454 @@
+[
+  {
+    "test_note_id": 1,
+    "clinical_note": "Patient has diabetes. Prescribed Metformin 500 mg twice daily. Follow-up after two weeks.",
+    "extracted_data": {
+      "diagnosis": [
+        "diabetes"
+      ],
+      "medication": [
+        "Metformin 500 mg twice daily"
+      ],
+      "follow_up": [
+        "Follow-up after two weeks"
+      ]
+    },
+    "summary": "Diagnosis: diabetes. Medication: Metformin 500 mg twice daily. Follow-up: Follow-up after two weeks."
+  },
+  {
+    "test_note_id": 2,
+    "clinical_note": "Patient has hypertension. Prescribed Amlodipine 5 mg once daily. Review after one month.",
+    "extracted_data": {
+      "diagnosis": [
+        "hypertension"
+      ],
+      "medication": [
+        "Amlodipine 5 mg once daily"
+      ],
+      "follow_up": [
+        "Review after one month"
+      ]
+    },
+    "summary": "Diagnosis: hypertension. Medication: Amlodipine 5 mg once daily. Follow-up: Review after one month."
+  },
+  {
+    "test_note_id": 3,
+    "clinical_note": "Patient has fever and cough. Advised rest and fluids. Follow-up after three days.",
+    "extracted_data": {
+      "diagnosis": [
+        "fever"
+      ],
+      "medication": [],
+      "follow_up": [
+        "Follow-up after three days"
+      ]
+    },
+    "summary": "Diagnosis: fever. Follow-up: Follow-up after three days."
+  },
+  {
+    "test_note_id": 4,
+    "clinical_note": "Patient has asthma with breathing difficulty. Prescribed inhaler. Review after one week.",
+    "extracted_data": {
+      "diagnosis": [
+        "asthma"
+      ],
+      "medication": [],
+      "follow_up": [
+        "Review after one week"
+      ]
+    },
+    "summary": "Diagnosis: asthma. Follow-up: Review after one week."
+  },
+  {
+    "test_note_id": 5,
+    "clinical_note": "Patient has high blood pressure. Prescribed Losartan 50 mg once daily. Follow-up after two weeks.",
+    "extracted_data": {
+      "diagnosis": [
+        "hypertension"
+      ],
+      "medication": [
+        "Losartan 50 mg once daily"
+      ],
+      "follow_up": [
+        "Follow-up after two weeks"
+      ]
+    },
+    "summary": "Diagnosis: hypertension. Medication: Losartan 50 mg once daily. Follow-up: Follow-up after two weeks."
+  },
+  {
+    "test_note_id": 6,
+    "clinical_note": "Patient has type 2 diabetes. Taking Metformin 500 mg daily. Review blood glucose after one month.",
+    "extracted_data": {
+      "diagnosis": [
+        "diabetes"
+      ],
+      "medication": [
+        "Metformin 500 mg daily"
+      ],
+      "follow_up": [
+        "Review blood glucose after one month"
+      ]
+    },
+    "summary": "Diagnosis: diabetes. Medication: Metformin 500 mg daily. Follow-up: Review blood glucose after one month."
+  },
+  {
+    "test_note_id": 7,
+    "clinical_note": "Patient reports headache and hypertension. Continue medication. Follow-up after two weeks.",
+    "extracted_data": {
+      "diagnosis": [
+        "hypertension"
+      ],
+      "medication": [],
+      "follow_up": [
+        "Follow-up after two weeks"
+      ]
+    },
+    "summary": "Diagnosis: hypertension. Follow-up: Follow-up after two weeks."
+  },
+  {
+    "test_note_id": 8,
+    "clinical_note": "Patient has anaemia and fatigue. Recommended iron supplementation. Review after four weeks.",
+    "extracted_data": {
+      "diagnosis": [
+        "anaemia"
+      ],
+      "medication": [
+        "iron supplementation"
+      ],
+      "follow_up": [
+        "Review after four weeks"
+      ]
+    },
+    "summary": "Diagnosis: anaemia. Medication: iron supplementation. Follow-up: Review after four weeks."
+  },
+  {
+    "test_note_id": 9,
+    "clinical_note": "Patient has cough and fever. Advised clinical review after three days.",
+    "extracted_data": {
+      "diagnosis": [
+        "fever"
+      ],
+      "medication": [],
+      "follow_up": [
+        "review after three days"
+      ]
+    },
+    "summary": "Diagnosis: fever. Follow-up: review after three days."
+  },
+  {
+    "test_note_id": 10,
+    "clinical_note": "Patient has diabetes and hypertension. Continue current medications. Follow-up after one month.",
+    "extracted_data": {
+      "diagnosis": [
+        "diabetes",
+        "hypertension"
+      ],
+      "medication": [],
+      "follow_up": [
+        "Follow-up after one month"
+      ]
+    },
+    "summary": "Diagnosis: diabetes, hypertension. Follow-up: Follow-up after one month."
+  },
+  {
+    "test_note_id": 11,
+    "clinical_note": "Patient has mild asthma. Prescribed Salbutamol inhaler. Review after one week.",
+    "extracted_data": {
+      "diagnosis": [
+        "asthma"
+      ],
+      "medication": [
+        "Salbutamol inhaler"
+      ],
+      "follow_up": [
+        "Review after one week"
+      ]
+    },
+    "summary": "Diagnosis: asthma. Medication: Salbutamol inhaler. Follow-up: Review after one week."
+  },
+  {
+    "test_note_id": 12,
+    "clinical_note": "Patient has elevated glucose levels. Recommended dietary monitoring. Follow-up after two weeks.",
+    "extracted_data": {
+      "diagnosis": [
+        "diabetes"
+      ],
+      "medication": [],
+      "follow_up": [
+        "Follow-up after two weeks"
+      ]
+    },
+    "summary": "Diagnosis: diabetes. Follow-up: Follow-up after two weeks."
+  },
+  {
+    "test_note_id": 13,
+    "clinical_note": "Patient has hypertension. Prescribed Telmisartan 40 mg once daily. Review after one month.",
+    "extracted_data": {
+      "diagnosis": [
+        "hypertension"
+      ],
+      "medication": [
+        "Telmisartan 40 mg once daily"
+      ],
+      "follow_up": [
+        "Review after one month"
+      ]
+    },
+    "summary": "Diagnosis: hypertension. Medication: Telmisartan 40 mg once daily. Follow-up: Review after one month."
+  },
+  {
+    "test_note_id": 14,
+    "clinical_note": "Patient has iron deficiency anaemia. Prescribed iron tablets. Follow-up after four weeks.",
+    "extracted_data": {
+      "diagnosis": [
+        "anaemia"
+      ],
+      "medication": [
+        "iron tablets"
+      ],
+      "follow_up": [
+        "Follow-up after four weeks"
+      ]
+    },
+    "summary": "Diagnosis: anaemia. Medication: iron tablets. Follow-up: Follow-up after four weeks."
+  },
+  {
+    "test_note_id": 15,
+    "clinical_note": "Patient has fever with cough. Advised hydration and rest. Review after three days.",
+    "extracted_data": {
+      "diagnosis": [
+        "fever"
+      ],
+      "medication": [],
+      "follow_up": [
+        "Review after three days"
+      ]
+    },
+    "summary": "Diagnosis: fever. Follow-up: Review after three days."
+  },
+  {
+    "test_note_id": 16,
+    "clinical_note": "Patient has diabetes. Prescribed Metformin 500 mg twice daily. Follow-up after two weeks.",
+    "extracted_data": {
+      "diagnosis": [
+        "diabetes"
+      ],
+      "medication": [
+        "Metformin 500 mg twice daily"
+      ],
+      "follow_up": [
+        "Follow-up after two weeks"
+      ]
+    },
+    "summary": "Diagnosis: diabetes. Medication: Metformin 500 mg twice daily. Follow-up: Follow-up after two weeks."
+  },
+  {
+    "test_note_id": 17,
+    "clinical_note": "Patient has high blood pressure and headache. Continue medication. Review after one week.",
+    "extracted_data": {
+      "diagnosis": [
+        "hypertension"
+      ],
+      "medication": [],
+      "follow_up": [
+        "Review after one week"
+      ]
+    },
+    "summary": "Diagnosis: hypertension. Follow-up: Review after one week."
+  },
+  {
+    "test_note_id": 18,
+    "clinical_note": "Patient has asthma symptoms. Continue inhaler treatment. Follow-up after two weeks.",
+    "extracted_data": {
+      "diagnosis": [
+        "asthma"
+      ],
+      "medication": [],
+      "follow_up": [
+        "Follow-up after two weeks"
+      ]
+    },
+    "summary": "Diagnosis: asthma. Follow-up: Follow-up after two weeks."
+  },
+  {
+    "test_note_id": 19,
+    "clinical_note": "Patient has fatigue due to anaemia. Recommended iron supplementation. Review after four weeks.",
+    "extracted_data": {
+      "diagnosis": [
+        "anaemia"
+      ],
+      "medication": [
+        "iron supplementation"
+      ],
+      "follow_up": [
+        "Review after four weeks"
+      ]
+    },
+    "summary": "Diagnosis: anaemia. Medication: iron supplementation. Follow-up: Review after four weeks."
+  },
+  {
+    "test_note_id": 20,
+    "clinical_note": "Patient has hypertension. Continue Amlodipine 5 mg daily. Follow-up after one month.",
+    "extracted_data": {
+      "diagnosis": [
+        "hypertension"
+      ],
+      "medication": [
+        "Amlodipine 5 mg daily"
+      ],
+      "follow_up": [
+        "Follow-up after one month"
+      ]
+    },
+    "summary": "Diagnosis: hypertension. Medication: Amlodipine 5 mg daily. Follow-up: Follow-up after one month."
+  },
+  {
+    "test_note_id": 21,
+    "clinical_note": "Patient has diabetes. Continue Metformin treatment. Review glucose after two weeks.",
+    "extracted_data": {
+      "diagnosis": [
+        "diabetes"
+      ],
+      "medication": [
+        "Metformin treatment"
+      ],
+      "follow_up": [
+        "Review glucose after two weeks"
+      ]
+    },
+    "summary": "Diagnosis: diabetes. Medication: Metformin treatment. Follow-up: Review glucose after two weeks."
+  },
+  {
+    "test_note_id": 22,
+    "clinical_note": "Patient has cough and fever. Advised rest and fluids. Follow-up after three days.",
+    "extracted_data": {
+      "diagnosis": [
+        "fever"
+      ],
+      "medication": [],
+      "follow_up": [
+        "Follow-up after three days"
+      ]
+    },
+    "summary": "Diagnosis: fever. Follow-up: Follow-up after three days."
+  },
+  {
+    "test_note_id": 23,
+    "clinical_note": "Patient has asthma. Prescribed inhaler and advised monitoring. Review after one week.",
+    "extracted_data": {
+      "diagnosis": [
+        "asthma"
+      ],
+      "medication": [],
+      "follow_up": [
+        "Review after one week"
+      ]
+    },
+    "summary": "Diagnosis: asthma. Follow-up: Review after one week."
+  },
+  {
+    "test_note_id": 24,
+    "clinical_note": "Patient has anaemia. Prescribed iron supplementation. Follow-up after four weeks.",
+    "extracted_data": {
+      "diagnosis": [
+        "anaemia"
+      ],
+      "medication": [
+        "iron supplementation"
+      ],
+      "follow_up": [
+        "Follow-up after four weeks"
+      ]
+    },
+    "summary": "Diagnosis: anaemia. Medication: iron supplementation. Follow-up: Follow-up after four weeks."
+  },
+  {
+    "test_note_id": 25,
+    "clinical_note": "Patient has hypertension. Prescribed Losartan 50 mg daily. Review after one month.",
+    "extracted_data": {
+      "diagnosis": [
+        "hypertension"
+      ],
+      "medication": [
+        "Losartan 50 mg daily"
+      ],
+      "follow_up": [
+        "Review after one month"
+      ]
+    },
+    "summary": "Diagnosis: hypertension. Medication: Losartan 50 mg daily. Follow-up: Review after one month."
+  },
+  {
+    "test_note_id": 26,
+    "clinical_note": "Patient has diabetes and hypertension. Continue current treatment. Follow-up after two weeks.",
+    "extracted_data": {
+      "diagnosis": [
+        "diabetes",
+        "hypertension"
+      ],
+      "medication": [],
+      "follow_up": [
+        "Follow-up after two weeks"
+      ]
+    },
+    "summary": "Diagnosis: diabetes, hypertension. Follow-up: Follow-up after two weeks."
+  },
+  {
+    "test_note_id": 27,
+    "clinical_note": "Patient has elevated blood glucose. Continue monitoring. Review after one month.",
+    "extracted_data": {
+      "diagnosis": [
+        "diabetes"
+      ],
+      "medication": [],
+      "follow_up": [
+        "Review after one month"
+      ]
+    },
+    "summary": "Diagnosis: diabetes. Follow-up: Review after one month."
+  },
+  {
+    "test_note_id": 28,
+    "clinical_note": "Patient has fever and cough. Advised rest and hydration. Follow-up after three days.",
+    "extracted_data": {
+      "diagnosis": [
+        "fever"
+      ],
+      "medication": [],
+      "follow_up": [
+        "Follow-up after three days"
+      ]
+    },
+    "summary": "Diagnosis: fever. Follow-up: Follow-up after three days."
+  },
+  {
+    "test_note_id": 29,
+    "clinical_note": "Patient has iron deficiency anaemia with fatigue. Continue iron treatment. Review after four weeks.",
+    "extracted_data": {
+      "diagnosis": [
+        "anaemia"
+      ],
+      "medication": [],
+      "follow_up": [
+        "Review after four weeks"
+      ]
+    },
+    "summary": "Diagnosis: anaemia. Follow-up: Review after four weeks."
+  },
+  {
+    "test_note_id": 30,
+    "clinical_note": "Patient has diabetes. Prescribed Metformin 500 mg twice daily. Follow-up after two weeks.",
+    "extracted_data": {
+      "diagnosis": [
+        "diabetes"
+      ],
+      "medication": [
+        "Metformin 500 mg twice daily"
+      ],
+      "follow_up": [
+        "Follow-up after two weeks"
+      ]
+    },
+    "summary": "Diagnosis: diabetes. Medication: Metformin 500 mg twice daily. Follow-up: Follow-up after two weeks."
+  }
+]
