@@ -4,3 +4,13 @@
 .env
 .venv/
 venv/
+
+# Generated model files
+models/
+
+# MLflow experiment files
+mlflow.db
+mlruns/
+
+# Temporary file
+Answer
