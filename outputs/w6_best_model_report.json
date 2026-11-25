@@ -1,0 +1,15 @@
+{
+    "best_configuration": {
+        "n_estimators": 100,
+        "max_depth": null,
+        "random_state": 42
+    },
+    "selection_metric": "validation_accuracy",
+    "validation_accuracy": 0.85,
+    "validation_f1_weighted": 0.8484595230665211,
+    "final_test_accuracy": 0.825,
+    "final_test_f1_weighted": 0.8237054686651462,
+    "training_records": 560,
+    "validation_records": 120,
+    "test_records": 120
+}
