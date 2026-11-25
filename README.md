@@ -159,3 +159,21 @@ The system is intended as an AI/ML internship project and is not a replacement f
 * 30 synthetic clinical notes: Completed
 * Structured JSON output: Completed
 * GitHub submission: completed
+## Project Documentation
+- [Literature Review](docs/literature_review.md)
+- [Architecture Design](docs/architecture.md)
+- [Evaluation Metrics](docs/evaluation_metrics.md)
+
+## Data Pipeline
+
+1. Clinical note input
+2. Text preprocessing
+3. Clinical information extraction
+4. Diagnosis, medication and follow-up extraction
+5. Structured JSON generation
+6. Patient-record summary generation
+7. Testing with synthetic clinical notes
+
+## Data Privacy
+
+This project uses synthetic clinical data only. No real patient information is used.
